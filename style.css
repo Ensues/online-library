@@ -105,7 +105,24 @@ section{
 /* Log In Page */ 
 .log-in{
     margin-top: 100px;
-    font-size: 3rem;
+}
+.log-in .btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    box-shadow: 0 0 25px var(--main-color);
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: var(--bg-color);
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    cursor:pointer;
+}
+.log-in .btn:hover{
+    transform:scale(1.05);
+    box-shadow: 0 0 50px var(--main-color);
 }
 /* Home Page */
 .home{
