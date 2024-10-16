@@ -174,6 +174,54 @@ section{
     justify-content: center;
     margin-top: 3rem;
 }
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1400px) {
+    .container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+  }
+
+@media only screen and (max-width: 1000px) {
+    .container{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .container{
+        display: grid;
+        grid-template-columns: auto;
+    }
+  }
+figure {
+    width: 270px; 
+    height: 400px;
+    animation: animate-books 1.5s ease-out;
+}
+figure img {
+    width: 250px;   
+    height: 400px; 
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #C10206;
+    animation: animate-books 1.5s ease-out;
+}
+@keyframes animate-books {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+figure img:hover{
+    scale: 1.2;
+    transition-duration: 0.5s;
+    cursor: grabbing;
+}
 /* Search */
 .search{
     display: flex;
