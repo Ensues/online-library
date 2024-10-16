@@ -41,3 +41,12 @@ async function login() {
     alert('An error occurred. Please try again later.'); // Show a generic error message
   }
 }
+
+// Animation
+// Get all elements in the HTML file
+const elements = document.querySelectorAll('*');
+
+// Add the animation class to each element with a delay
+elements.forEach((element, index) => {
+  element.classList.add('animate-in');
+});
