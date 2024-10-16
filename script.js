@@ -1,12 +1,14 @@
+// element declaraction
 const emailInput = document.getElementById('email');
 const passwordInput = document.getElementById('password');
 const loginBtn = document.getElementById('login-btn');
 
+// event listener declaration
 emailInput.addEventListener('input', checkInputs);
 passwordInput.addEventListener('input', checkInputs);
-
 loginBtn.addEventListener('click', login);
 
+// Log In Fuinctions
 function checkInputs() {
   const emailValue = emailInput.value.trim();
   const passwordValue = passwordInput.value.trim();
