@@ -14,18 +14,19 @@
         <section class="log-in">
             <form>
                 <div class="img-container">
-                    <div class="img">
-                        <img src="YellowCat.jpg" alt="Cat Image">
+                    <div class="login-wrapper">
+                        <div class="img">
+                            <img src="YellowCat.jpg" alt="Cat Image">
+                            <a href="library.html" class="btn bypass-btn">Click here to bypass</a>
+                        </div>
+                        <div class="input-box">
+                            <!-- Right now the log in only requires for the user to input any value
+                            and it will enable the log in button and will takle the user to the library.html page-->
+                            <input type="email" id="email" placeholder="Email" required>
+                            <input type="password" id="password" placeholder="Password" required>
+                            <button class="btn" id="login-btn" disabled>Log In</button>
+                        </div>
                     </div>
-                    <a href="library.html" class="btn bypass-btn">Click here to bypass</a>
-                </div>
-                <div class="input-box">
-                    <!-- Right now the log in only requires for the user to input any value
-                      and it will enable the log in button and will takle the user to the library.html page-->
-                    <input type="email" id="email" placeholder="Email" required>
-                    <input type="password" id="password" placeholder="Password" required>
-                    <button class="btn" id="login-btn" disabled>Log In</button>
-                </div>
             </form>
             
         </section>
