@@ -42,7 +42,7 @@ span{
     top:0;
     left: 0;
     width: 100%;
-    padding: 4rem 12% 4rem;
+    padding: 1rem 6% 1rem;
     background: var(--main-color);
     backdrop-filter: blur(10px);
     display: flex;
@@ -51,7 +51,7 @@ span{
     z-index:5;
 }
 .header img{
-    width:2.5vw; 
+    width:8%; 
     float:left;
     padding-right: 5px;
 }
@@ -73,7 +73,7 @@ span{
     text-shadow: 0 0 25px var(--second-bg-color);
 }
 .navbar a{
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: var(--bg-color);
     margin-left: 4rem;
     font-weight: 500;
@@ -85,6 +85,7 @@ span{
 .navbar a.active{
     color: var(--second-bg-color);
     border-bottom: 3px solid var(--second-bg-color);
+    text-shadow: 0 0 25px var(--second-bg-color);
 }
 .navbar input[type=text]{
     float: right;
