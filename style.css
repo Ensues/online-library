@@ -119,10 +119,28 @@ section{
     font-weight: 600;
     transition: 0.3s ease-in-out;
     cursor:pointer;
+    margin-top: 2rem;
 }
 .log-in .btn:hover{
     transform:scale(1.05);
     box-shadow: 0 0 50px var(--main-color);
+}
+.log-in .input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.log-in .input-box input,
+.log-in form textarea{
+    width: 100%;
+    padding: 2.5rem;
+    font-size: 1.8rem;
+    color: var(--text-color);
+    background: var(--second-bg-color);
+    border-radius: 2rem;
+    border: 2px solid var(--main-color);
+    margin:1.5rem 0;
+    resize: none;
 }
 /* Home Page */
 .home{
