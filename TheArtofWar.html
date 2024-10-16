@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Art of War</title>
+        <style>
+            main{
+                width: 100vw;
+                height: 100vh;
+                display: flex;
+                flex-direction: row;
+            }
+
+            .TAOW-photo-bg{
+                background-color: #881718;
+                flex: 2;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .TAOW-description{
+                background-color: black;
+                flex: 3;
+
+                /* Centers vertically. */
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            h1, p{
+                /* Centers horizontally. */
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 0px;
+                padding-bottom: 0px;
+            }
+
+            .book-title{
+                font-size: 300%;
+            }
+
+            .author{
+                font-size: 150%;
+            }
+
+            img{
+                height: 90vh;
+                /* Centers horizontally and vertically. */
+                display: block;
+                margin: auto;
+            }
+
+            body{
+                margin: 0px;
+                padding: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+            }
+
+            .read{
+                width: 120px;
+                height: 50px;
+                background-color: #881718;
+                border-radius: 50px;
+
+                font-size: large;
+                font-family: Arial, Helvetica, sans-serif;
+                
+                margin-top: 10px;
+                margin-left: 20px;
+                text-align: center;
+
+                /* Centers vertically. */
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                transition-property: background-color;
+                transition-duration: 100ms;
+                transition-timing-function: ease;
+            }
+
+            .read:hover{
+                background-color: #8f2224;
+            }
+
+            .read:active{
+                background-color: #be2e30;
+            }
+
+            .back{
+                width: 120px;
+                height: 50px;
+                background-color: #fccb3b;
+                border-radius: 50px;
+
+                font-size: large;
+                font-family: Arial, Helvetica, sans-serif;
+                
+                margin-top: 10px;
+                margin-left: 20px;
+                text-align: center;
+                color: #881718;
+
+                /* Centers vertically. */
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                transition-property: background-color;
+                transition-duration: 100ms;
+                transition-timing-function: ease;
+            }
+            .back:hover{
+                background-color: #ffd968;
+            }
+
+            .back:active{
+                background-color: #ffe69a;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <div class="TAOW-photo-bg">
+                <img src="Book Covers/The Art of War Front Cover.jpg">
+            </div>
+            <div class="TAOW-description">
+                <p><b class="book-title">The Art of War</b><br><b class="author">By: Sun Tzu</b></p>
+    
+                <p>Twenty-Five Hundred years ago, Sun Tzu wrote this classic book of military strategy based on Chinese warfare and military thought. Since that time, all levels of military have used the teaching on Sun Tzu to warfare and civilization have adapted these teachings for use in politics, business and everyday life. The Art of War is a book which should be used to gain advantage of opponents in the boardroom and battlefield alike.</p>
+    
+                <p><b>Genres: Nonfiction, Classic</b><br>Book source: University of Alberta<br>Details from: Goodreads</p>
+
+                <div class="read">
+                    <p><b>Read</b></p>
+                </div>
+
+                <div class="back">
+                    <p><b>Back</b></p>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
