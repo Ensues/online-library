@@ -269,14 +269,12 @@ section{
     text-align: center;
     color:#C10206;
 }
-
 /* Front Page Container */
 .container{
     display: flex;
     justify-content: center;
     padding: 10px;
 }
-
 /* Responsiveness */
 @media only screen and (max-width: 1400px) {
     .container{
@@ -284,7 +282,6 @@ section{
         grid-template-columns: auto auto auto auto ;
     }
   }
-
 @media only screen and (max-width: 1000px) {
     .container{
         display: grid;
@@ -305,7 +302,6 @@ figure {
     margin-bottom: 20px;
     animation: animate-books 1.5s ease-out;
 }
-
 /* Image (applied only to books) */
 figure img {
     width: 250px;   
