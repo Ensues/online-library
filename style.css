@@ -121,7 +121,7 @@ span{
     width: 0;
 }
 .search-bar:hover > .Input{
-    width: 150px;
+    width: 158.441658px;
 }
 .search-bar:hover > .bx-search-alt{
     background-color: var(--main-color);
