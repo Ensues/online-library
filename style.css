@@ -169,7 +169,7 @@ section{
 /* Log In Page */ 
 .log-in{
     margin-top: 0;
-    height: 100vh;
+    height: 155vh;
     padding: 20px;
     flex-direction: row;
     align-items: center;
