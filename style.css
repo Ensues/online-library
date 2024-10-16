@@ -110,6 +110,7 @@ span{
 .navbar a.active{
     color: var(--second-bg-color);
     border-bottom: 3px solid var(--second-bg-color);
+    scale: 1.1;
 }
 .search-bar{
     border-radius: 20px;
