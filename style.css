@@ -200,7 +200,6 @@ section{
     box-shadow: 0 0 50px var(--main-color);
     color: var(--second-bg-color);
 }
-
 .log-in .input-box{
     display: flex;
     justify-content: center;
