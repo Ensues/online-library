@@ -256,7 +256,7 @@ section{
     }
 }
 .log-in .img .bypass-btn {
-    width: 100%; /* make the button full-width */
+    width: 50%; /* make the button full-width */
     text-align: center;
 }
 /* Home Page */
