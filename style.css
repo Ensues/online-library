@@ -50,6 +50,11 @@ span{
     align-items:center;
     z-index:5;
 }
+.header img{
+    width:2.5vw; 
+    float:left;
+    padding-right: 5px;
+}
 .header span{
     color: var(--second-bg-color);
 }
@@ -128,19 +133,20 @@ section{
 .log-in .input-box{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
+    text-shadow: 0 0 25px var(--main-color);
 }
-.log-in .input-box input,
-.log-in form textarea{
+.log-in .input-box input{
     width: 100%;
     padding: 2.5rem;
     font-size: 1.8rem;
     color: var(--text-color);
-    background: var(--second-bg-color);
+    background: var(--bg-color);
     border-radius: 2rem;
     border: 2px solid var(--main-color);
     margin:1.5rem 0;
     resize: none;
+    text-shadow: 0 0 25px var(--main-color);
 }
 /* Home Page */
 .home{
