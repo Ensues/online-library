@@ -135,7 +135,6 @@ section{
     display: flex;
     justify-content: center;
     flex-wrap:wrap;
-    text-shadow: 0 0 25px var(--main-color);
 }
 .log-in .input-box input{
     width: 100%;
@@ -147,7 +146,7 @@ section{
     border: 2px solid var(--main-color);
     margin:1.5rem 0;
     resize: none;
-    text-shadow: 0 0 25px var(--main-color);
+    box-shadow: 0 0 10px var(--main-color);
 }
 /* Home Page */
 .home{
