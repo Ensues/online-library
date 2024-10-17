@@ -74,6 +74,7 @@ span{
     position:fixed;
     align-items:center;
     justify-content: space-between;
+    align-items: center; 
 }
 .header img{
     width:8%; 
@@ -212,7 +213,7 @@ span{
     color: var(--main-color);
 }
 .search-bar:hover > .Input{
-    width: 158.441658px;
+    width: 200px;
 }
 .search-bar:hover > .bx-search-alt{
     color: var(--second-bg-color);
@@ -429,17 +430,21 @@ figure img:hover{
     .header {
         padding: 1rem 4% 1rem;
     }
+    .header img{
+        min-height: 20px;
+        min-width: 20px;
+    }
     .navbar a {
         font-size: 1.3rem;
         margin-left: 2rem;
+    }
+    .dropdown li a {
+        padding: 5px 0px;    
     }
     .search-bar:hover{
         width: 100px;
         height: 3rem;
         font-size: 1.3rem;
-    }
-    .search-bar:hover > .bx-search-alt{
-        transform: translateX(300px);
     }
     .Input{
         font-size: 1rem;
