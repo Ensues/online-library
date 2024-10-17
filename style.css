@@ -405,8 +405,8 @@ figure img {
     height: 400px; 
     object-fit: cover;
     border-radius: 10px;
-    border: 3px solid #C10206;
-    background-color: #C10206;
+    border: 3px solid #891619;
+    background-color: #891619;
     animation: animate-books 1.5s ease-out;
 }
 /* Animation */
