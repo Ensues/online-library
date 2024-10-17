@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Art of War</title>
+        <link rel="icon" type="image/x-icon" href="images/tsu-seal.png">
+        <style>
+            main{
+                width: 100vw;
+                height: 100vh;
+                display: flex;
+                flex-direction: row;
+            }
+
+            .photo-bg{
+                background-color: #881718;
+                flex: 2;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                animation: animate 0.8s ease-out;
+            }
+
+            .description{
+                background-color: black;
+                flex: 3;
+
+                /* Centers vertically. */
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                animation: animate 0.8s ease-out;
+            }
+
+            .book-title{
+                font-size: 300%;
+                margin-top: 20px;
+                animation: animate 0.8s ease-out;
+            }
+
+            .author{
+                font-size: 150%;
+                animation: animate 0.8s ease-out;
+            }
+
+            p{
+                margin-left: 20px;
+                margin-right: 20px;
+                animation: animate 0.8s ease-out;
+            }
+
+            img{
+                height: 90vh;
+                padding: 20px;
+                /* Centers horizontally and vertically. */
+                display: block;
+                margin: auto;
+                animation: animate 0.8s ease-out;
+            }
+
+            @keyframes animate {
+                0%{opacity: 0;}
+                100%{opacity: 1;}
+            }
+
+            body{
+                margin: 0px;
+                padding: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+            }
+
+            .read{
+                width: 120px;
+                height: 50px;
+                background-color: #881718;
+                border-radius: 50px;
+
+                font-size: large;
+                font-family: Arial, Helvetica, sans-serif;
+                
+                margin-top: 10px;
+                text-align: center;
+
+                /* Centers vertically. */
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                transition-property: background-color;
+                transition-duration: 100ms;
+                transition-timing-function: ease;
+            }
+
+            .read:hover{
+                background-color: #8f2224;
+            }
+
+            .read:active{
+                background-color: #be2e30;
+            }
+
+            .back{
+                width: 120px;
+                height: 50px;
+                background-color: #fccb3b;
+                border-radius: 50px;
+
+                font-size: large;
+                font-family: Arial, Helvetica, sans-serif;
+                
+                margin-top: 10px;
+                margin-left: 10px;
+                margin-bottom: 15px;
+                text-align: center;
+                color: #881718;
+
+                /* Centers vertically. */
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                transition-property: background-color;
+                transition-duration: 100ms;
+                transition-timing-function: ease;
+            }
+
+            .back:hover{
+                background-color: #ffd968;
+            }
+
+            .back:active{
+                background-color: #ffe69a;
+            }
+
+            .buttons{
+                display: flex;
+                flex-direction: row;
+
+                margin-bottom: 20px;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+
+            @media (max-width: 850px) {
+                main{
+                    flex-direction: column;
+                    width: 100%;
+                }
+
+                img{
+                    height: 50vh;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <div class="photo-bg">
+                <img src="images/Book Covers/The Art of War Front Cover.jpg">
+            </div>
+            <div class="description">
+                <p><b class="book-title">The Art of War</b><br><b class="author">By: Sun Tzu</b></p>
+    
+                <p>"Twenty-Five Hundred years ago, Sun Tzu wrote this classic book of military strategy based on Chinese warfare and military thought. Since that time, all levels of military have used the teaching on Sun Tzu to warfare and civilization have adapted these teachings for use in politics, business and everyday life. The Art of War is a book which should be used to gain advantage of opponents in the boardroom and battlefield alike."</p>
+    
+                <p><b>Genres: Nonfiction and Classic</b><br>Book source: University of Alberta<br>Note: Cover image is a different edition<br>Details from: Goodreads</p>
+
+                <div class="buttons">
+                    <div class="read">
+                        <a href="html-books/ReadTAOW.html" style="text-decoration: none; color: var(--bg-color);"><b>Read</b></a>
+                    </div>
+    
+                    <div class="back">
+                        <a href=library.html style="text-decoration: none; color: var(--bg-color);"><b>Back</b></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
