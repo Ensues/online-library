@@ -26,6 +26,15 @@ body{
     color: var(--text-color);
     background: var(--bg-color);
 }
+body video {
+    object-fit: cover;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
 span{
     color: var(--main-color);
 }
@@ -257,7 +266,7 @@ section{
     display: inline-block;
     border: 2px solid transparent;
     transition: 0.3s ease-in-out;
-    color: var(--second-bg-color);
+    color: var(--header-color);
     background: var(--main-color);
     box-shadow: 0 0 25px var(--main-color);
 }
@@ -267,23 +276,10 @@ section{
     color: var(--main-color);
     background: var(--second-bg-color);
 }
-.log-in .bypass-btn {
-    text-align: center;
-    margin-left: 10px;
-    color: var(--main-color);
-    background: var(--second-bg-color);
-    box-shadow: 0 0 25px var(--second-bg-color);
-}
-.log-in .bypass-btn:hover {
-    transform:scale(1.05);
-    box-shadow: 0 0 50px var(--main-color);
-    color: var(--second-bg-color);
-    background: var(--main-color);
-}
 .log-in .log-header{
     font-size: 3.5rem;
     padding-bottom: 20px;
-    color: var(--main-color);
+    color: var(--header-color);
 }
 .log-in .input-box{
     flex: 1;
@@ -306,6 +302,33 @@ section{
     border: 2px solid var(--main-color);
     box-shadow: 0 0 10px var(--main-color);
 }
+.img-container {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.log-in .img{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    float: right;
+    text-align: center; 
+}
+.log-in .img img{
+    width: 300px;
+    height: auto;
+    max-height: 300px;
+    border-radius: 10px;
+    object-fit: cover; 
+    transition: transform 0.5s; 
+    animation: 2s ease-out;
+    margin: 0 auto; 
+}
+.log-in .img img:hover{
+    scale: 1.2;
+    transition-duration: 0.5s;
+    animation: spin 2s linear infinite; 
+}
 @keyframes spin {
     0% {
         transform: rotate(0deg);
@@ -313,6 +336,10 @@ section{
     100% {
         transform: rotate(360deg);
     }
+}
+.log-in .bypass-btn {
+    text-align: center;
+    margin-left: 10px;
 }
 /* Error */
 .error{
@@ -454,7 +481,7 @@ figure img:hover{
     .Input{
         font-size: 1rem;
     }
-<<<<<<< HEAD
+
     .log-in{
         margin-top: -5px;
         height: 75vh;
@@ -473,9 +500,8 @@ figure img:hover{
         padding-top: 75px;
         margin-bottom: 0px
     }
-=======
->>>>>>> af0ab5170d73030b61c5fd36de1667cbe78140c5
-} 
+}
+
  @media only screen and (max-width: 480px) {
     .header {
       padding: 0.5rem 3% 0.5rem;
@@ -510,4 +536,3 @@ figure img:hover{
       gap: 5rem;
     }
 }
-
