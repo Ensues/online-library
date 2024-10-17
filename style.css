@@ -132,18 +132,25 @@ span{
 }
 .dropdown li {
     list-style: none;
+    margin: 0; 
+    padding: 0;
 }
 .dropdown li a {
     display: block;
     padding: 10px;
     text-decoration: none;
     color: var(--bg-color);
+    list-style-type: none;
+    transition: transform 0.3s ease;
 }
 .dropdown li a:hover {
-    background-color: var(--second-bg-color);
+    width: 91%;
+    text-align: center;
+    transform: translateX(-3.1rem); 
     color: var(--main-color);
-    scale: 1.1;
+    background-color: var(--second-bg-color);
     text-shadow: 0 0 25px var(--main-color);
+    box-shadow: 0 0 25px var(--second-bg-color);
 }
 .search-bar{
     border-radius: 20px;
