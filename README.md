@@ -33,8 +33,8 @@ The website is intended for:
 ## Technology Stack
 - Languages: HTML, CSS, JavaScript
 - Tools:
-  - IDE: Visual Studio Code (VSCode)
-  - Version Control: GitHub
+  - IDE - Visual Studio Code (VSCode)
+  - Version Control - GitHub
 
 ## Installation and Usage
 
