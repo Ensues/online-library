@@ -449,7 +449,6 @@ figure img:hover{
     .Input{
         font-size: 1rem;
     }
-
     .log-in{
         margin-top: -5px;
         height: 75vh;
@@ -470,12 +469,41 @@ figure img:hover{
     }
 }
 @media only screen and (max-width: 480px) {
+    .logo{
+        font-size: 1.1rem;
+    }
+    .header {
+        padding: 2rem 8% 2rem;
+    }
+    .header img{
+        min-height: 15px;
+        min-width: 15px;
+    }
+    .dropdown li a {
+        padding: 5px 0px;    
+    }
+    .search-bar:hover{
+        width: 100px;
+        height: 3rem;
+        font-size: 1.3rem;
+    }
+    .Input{
+        font-size: 1rem;
+    }
+    .logo:hover{
+        transform:scale(1.2);
+        margin-left: 10px;
+        text-shadow: 0 0 25px var(--second-bg-color);
+    }
+    .search-bar:hover > .Input{
+        width: 100px;
+    }
     .header {
       padding: 0.5rem 3% 0.5rem;
     }
     .navbar a {
-      font-size: 1.2rem;
-      margin-left: 1.5rem;
+      font-size: 1rem;
+      margin-left: 1rem;
     }
 }
 @media only screen and (max-width: 768px) {
