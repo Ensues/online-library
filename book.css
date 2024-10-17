@@ -1,0 +1,143 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.photo-bg{
+    background-color: #881718;
+    flex: 2;
+
+    /* Centers vertically. */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description{
+    background-color: black;
+    flex: 3;
+
+    /* Centers vertically. */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img{
+    height: 90vh;
+    padding: 20px;
+    /* Centers horizontally and vertically. */
+    display: block;
+    margin: auto;
+}
+
+/* More specific text styles. */
+.book-title{
+    font-size: 300%;
+    margin-top: 20px;
+}
+
+.author{
+    font-size: 150%;
+}
+
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Read button */
+.read{
+    width: 120px;
+    height: 50px;
+    background-color: #881718;
+    border-radius: 50px;
+
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    margin-top: 10px;
+    text-align: center;
+
+    /* Centers vertically. */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    transition-property: background-color;
+    transition-duration: 100ms;
+    transition-timing-function: ease;
+}
+
+.read:hover{
+    background-color: #8f2224;
+}
+
+.read:active{
+    background-color: #be2e30;
+}
+
+/* Back button */
+.back{
+    width: 120px;
+    height: 50px;
+    background-color: #fccb3b;
+    border-radius: 50px;
+
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #881718;
+
+    /* Centers vertically. */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    transition-property: background-color;
+    transition-duration: 100ms;
+    transition-timing-function: ease;
+}
+
+.back:hover{
+    background-color: #ffd968;
+}
+
+.back:active{
+    background-color: #ffe69a;
+}
+
+/* Groups buttons */
+.buttons{
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Responsive design */
+@media (max-width: 850px) {
+    main{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    img{
+        height: 50vh;
+    }
+}
