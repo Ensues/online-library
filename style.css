@@ -267,6 +267,22 @@ section{
     width: 50%; /* make the button full-width */
     text-align: center;
 }
+/* Error */
+.error{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.error .error-text{
+    font-size: 100px;
+    color: var(--main-color);
+    text-decoration: underline;
+    text-shadow: 0 0 5px var(--main-color);
+    transition: 0.3s ease-in-out;
+}
+.error .error-text:hover{
+    scale: 1.2;
+}
 /* Cervantes */
 /* Library Browsing */
 .library{

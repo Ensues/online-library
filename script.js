@@ -1,14 +1,13 @@
-// element declaraction
+// Log In Behaviors
 const emailInput = document.getElementById('email');
 const passwordInput = document.getElementById('password');
 const loginBtn = document.getElementById('login-btn');
 
-// event listener declaration
 emailInput.addEventListener('input', checkInputs);
 passwordInput.addEventListener('input', checkInputs);
 loginBtn.addEventListener('click', login);
 
-// Log In Fuinctions
+// Log In Functions
 function checkInputs() {
   const emailValue = emailInput.value.trim();
   const passwordValue = passwordInput.value.trim();
@@ -42,7 +41,7 @@ async function login() {
   }
 }
 
-// Animation
+// General Animation Entry Behaviors
 // Get all elements in the HTML file
 const elements = document.querySelectorAll('*');
 
