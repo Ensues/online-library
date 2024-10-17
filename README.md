@@ -31,9 +31,9 @@ The website is intended for:
 
 ## Installation and Usage
 
-The site is publicly accessible and does not require any special setup for browsing. Students can log in with their credentials for a more personalized experience, while visitors can access the library as guests.
+Due to this being a publicly accessible web application / site, it does not require any special setup for browsing. Students can log in with their credentials for a more personalized experience, while visitors can access the library as guests.
 
-The link being - https://ensues.github.io/Hackathon/
+Which is - https://ensues.github.io/Hackathon/
 
 ## Project Status
 
