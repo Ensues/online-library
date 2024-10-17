@@ -221,6 +221,7 @@ section{
 }
 .log-in .btn{
     margin-top: 2rem;
+    margin-bottom: 100px;
     padding-top: 10px;
     padding: 1rem 2.8rem;
     border-radius: 4rem;
@@ -302,9 +303,9 @@ section{
         transform: rotate(360deg);
     }
 }
-.log-in .img .bypass-btn {
-    width: 50%; /* make the button full-width */
+.log-in .bypass-btn {
     text-align: center;
+    margin-left: 10px;
 }
 /* Error */
 .error{
@@ -454,7 +455,7 @@ figure img:hover{
     }
     .log-in{
         margin-top: -5px;
-        height: 200vh;
+        height: 75vh;
     }
     .log-in .img{
         align-items: center;
