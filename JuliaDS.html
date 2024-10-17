@@ -1,164 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0">
         <title>Julia Data Science</title>
+        <link rel="stylesheet" href="book.css">
         <link rel="icon" type="image/x-icon" href="images/tsu-seal.png">
-        <style>
-            main{
-                width: 100vw;
-                height: 100vh;
-                display: flex;
-                flex-direction: row;
-            }
-
-            .photo-bg{
-                background-color: #881718;
-                flex: 2;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-            }
-
-            .description{
-                background-color: black;
-                flex: 3;
-
-                /* Centers vertically. */
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-            }
-
-            .book-title{
-                font-size: 300%;
-                margin-top: 20px;
-            }
-
-            .author{
-                font-size: 150%;
-            }
-
-            p{
-                margin-left: 20px;
-                margin-right: 20px;
-            }
-
-            img{
-                height: 90vh;
-                padding: 20px;
-                /* Centers horizontally and vertically. */
-                display: block;
-                margin: auto;
-            }
-
-            body{
-                margin: 0px;
-                padding: 0px;
-                font-family: Arial, Helvetica, sans-serif;
-                color: white;
-            }
-
-            .read{
-                width: 120px;
-                height: 50px;
-                background-color: #881718;
-                border-radius: 50px;
-
-                font-size: large;
-                font-family: Arial, Helvetica, sans-serif;
-                
-                margin-top: 10px;
-                text-align: center;
-
-                /* Centers vertically. */
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-
-                transition-property: background-color;
-                transition-duration: 100ms;
-                transition-timing-function: ease;
-            }
-
-            .read:hover{
-                background-color: #8f2224;
-            }
-
-            .read:active{
-                background-color: #be2e30;
-            }
-
-            .back{
-                width: 120px;
-                height: 50px;
-                background-color: #fccb3b;
-                border-radius: 50px;
-
-                font-size: large;
-                font-family: Arial, Helvetica, sans-serif;
-                
-                margin-top: 10px;
-                margin-left: 10px;
-                margin-bottom: 15px;
-                text-align: center;
-                color: #881718;
-
-                /* Centers vertically. */
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-
-                transition-property: background-color;
-                transition-duration: 100ms;
-                transition-timing-function: ease;
-            }
-
-            .back:hover{
-                background-color: #ffd968;
-            }
-
-            .back:active{
-                background-color: #ffe69a;
-            }
-
-            .buttons{
-                display: flex;
-                flex-direction: row;
-
-                margin-bottom: 20px;
-                margin-left: 20px;
-                margin-right: 20px;
-            }
-
-            @media (max-width: 850px) {
-                main{
-                    flex-direction: column;
-                    width: 100%;
-                }
-
-                img{
-                    height: 50vh;
-                }
-            }
-        </style>
     </head>
     <body>
         <main>
+            <!--Book Cover-->
             <div class="photo-bg">
                 <img src="images/Book Covers/Julia Front Cover.png">
             </div>
+            <!--Book Information-->
             <div class="description">
+                <!--Title and Author-->
                 <p><b class="book-title">Julia Data Science</b><br><b class="author">By: Jose Storopoli, Rik Huijzer, and Lazaro Alonso</b></p>
     
+                <!--Premise-->
                 <p>"This is an open source and open access book on how to do Data Science using Julia. Our target audience are researchers from all fields of applied sciences. Of course, we hope to be useful for industry too."</p>
     
+                <!--More Information-->
                 <p><b>Genres: Nonfiction and Academic</b><br>Book description and source: Julia Data Science Website</p>
 
+                <!--Buttons-->
                 <div class="buttons">
+                    <!--Read-->
                     <div class="read">
                         <a href="html-books/ReadJDS.html" style="text-decoration: none; color: var(--bg-color);"><b>Read</b></a>
                     </div>
     
+                    <!--Back-->
                     <div class="back">
                         <a href=library.html style="text-decoration: none; color: var(--bg-color);"><b>Back</b></a>
                     </div>
