@@ -96,6 +96,7 @@ span{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 .navbar a{
     font-size: 2rem;
@@ -111,6 +112,38 @@ span{
     color: var(--second-bg-color);
     border-bottom: 3px solid var(--second-bg-color);
     scale: 1.1;
+}
+.drop-down {
+    position: relative;
+}
+.dropdown {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: var(--main-color);
+    border: 1px solid var(--bg-color);
+    z-index: 1000;
+    padding: 0;
+    margin: 0;
+}
+.drop-down:hover .dropdown {
+    display: block;
+}
+.dropdown li {
+    list-style: none;
+}
+.dropdown li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--bg-color);
+}
+.dropdown li a:hover {
+    background-color: var(--second-bg-color);
+    color: var(--main-color);
+    scale: 1.1;
+    text-shadow: 0 0 25px var(--main-color);
 }
 .search-bar{
     border-radius: 20px;

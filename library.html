@@ -13,7 +13,13 @@
             <div class="nav-container">
                 <nav class="navbar">
                     <a href="#home" class="active">Home</a>
-                    <a href="#">Catalog</a>
+                    <div class="drop-down">
+                        <a href="#">Catalog ▼</a>
+                        <ul class="dropdown">
+                            <li><a href="#popular">Popular</a></li>
+                            <li><a href="#thesis">Thesis</a></li>
+                        </ul>
+                    </div>
                     <a href=index.html>Log Out</a>
                     <button type="button"><box-icon name='search-alt'></box-icon></button> 
                 </nav>
@@ -24,7 +30,7 @@
             </div>
         </header>
         <section class="library" id="library">
-            <h2>Popular</h2>
+            <h2 id="popular">Popular</h2>
             <br>
             <div class="container">
             <figure>
@@ -52,7 +58,7 @@
                 <img src=>
             </figure>
         </div>
-        <h2>Thesis</h2>
+        <h2 id="thesis">Thesis</h2>
         <br>
             <div class="container">
                 <figure>

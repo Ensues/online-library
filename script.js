@@ -49,3 +49,27 @@ const elements = document.querySelectorAll('*');
 elements.forEach((element, index) => {
   element.classList.add('animate-in');
 });
+
+// Drop down logic
+document.querySelectorAll('.drop-down > a').forEach(item => {
+  item.addEventListener('click', function(event) {
+      const dropdown = this.nextElementSibling;
+      // Toggle the display of the dropdown
+      if (dropdown.style.display === "block") {
+          dropdown.style.display = "none";
+      } else {
+          dropdown.style.display = "block";
+      }
+      event.preventDefault(); // Prevent default link behavior
+  });
+});
+
+// Close dropdown if clicked outside
+window.addEventListener('click', function(event) {
+  if (!event.target.matches('.drop-down > a')) {
+      const dropdowns = document.querySelectorAll('.dropdown');
+      dropdowns.forEach(drop => {
+          drop.style.display = 'none'; // Hide all dropdowns
+      });
+  }
+});
