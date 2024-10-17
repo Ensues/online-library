@@ -12,6 +12,7 @@
 :root {
     --bg-color: black;
     --second-bg-color: #ffc632;
+    --third-bg-color: #131313;
     --text-color: #131313;
     --second-text-color:#fff;
     --main-color:#800000;
@@ -260,8 +261,8 @@ section{
     font-size: 1.8rem;
     border-radius: 2rem;
     resize: none;
-    color: var(--text-color);
-    background: var(--second-text-color);
+    color: var(--second-text-color);
+    background: var(--third-bg-color);
     border: 2px solid var(--main-color);
     box-shadow: 0 0 10px var(--main-color);
 }
