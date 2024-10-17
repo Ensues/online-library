@@ -446,8 +446,8 @@ figure img:hover{
     color: var(--header-color);
 }
 .footer span:hover{
-    color: var(--main-color);
-    text-shadow: 0 0 25px var(--main-color);
+    color: var(--second-bg-color);
+    text-shadow: 0 0 25px var(--second-bg-color);
 }
 /* For General Responsiveness */
 @media only screen and (max-width: 768px) {
