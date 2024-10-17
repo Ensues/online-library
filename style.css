@@ -10,7 +10,7 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 :root {
-    --bg-color: #1f1f1f;
+    --bg-color: black;
     --second-bg-color: #ffc632;
     --text-color: #131313;
     --second-text-color:#fff;
