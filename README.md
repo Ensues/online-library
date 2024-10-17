@@ -16,25 +16,25 @@ The goal of this project is to improve the online presence of the library at the
 ## Target Audience
 
 The website is intended for:
-- Students interested in browsing library resources.
-- General visitors who want to explore the library's offerings.
-- Anyone with an interest in viewing available books and theses.
+- **Students** interested in browsing library resources.
+- **General visitors** who want to explore the library's offerings.
+- **Anyone** with an interest in viewing available books and theses.
 
 ## Features
 
-- Revamped User Interface - A modernized design that improves visual appeal compared to the old version.
-- Basic Book Gallery - Displays popular books and theses, similar to the previous site.
-- Catalog Dropdown - Allows users to filter the gallery by popular books or theses (limited categories at the moment).
-- Book Reading Availability - Users can view information on books and theses available for in-person reading, connecting the digital platform to the physical library collection.
-- Login and Guest Access - Students can log in with their accounts, or users can browse the site as a guest.
+- **Revamped User Interface** - A modernized design that improves visual appeal compared to the old version.
+- **Basic Book Gallery** - Displays popular books and theses, similar to the previous site.
+- **Catalog Dropdown** - Allows users to filter the gallery by popular books or theses (limited categories at the moment).
+- **Book Reading Availability** - Users can view information on books and theses available for in-person reading, connecting the digital platform to the physical library collection.
+- **Login and Guest Access** - Students can log in with their accounts, or users can browse the site as a guest.
 
     Note: The login button is enabled only when the email and password fields contain any input.
 
 ## Technology Stack
-- Languages: HTML, CSS, JavaScript
-- Tools:
-  - IDE - Visual Studio Code (VSCode)
-  - Version Control - GitHub
+- **Languages**: HTML, CSS, JavaScript
+- **Tools**:
+  - **IDE** - Visual Studio Code (VSCode)
+  - **Version Control** - GitHub
 
 ## Installation and Usage
 
