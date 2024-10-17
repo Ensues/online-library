@@ -27,22 +27,25 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-
-                padding-left: 20px;
-                padding-right: 20px;
             }
 
             .book-title{
                 font-size: 300%;
+                margin-top: 20px;
             }
 
             .author{
                 font-size: 150%;
             }
 
+            p{
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+
             img{
                 height: 90vh;
-                padding: 10px;
+                padding: 20px;
                 /* Centers horizontally and vertically. */
                 display: block;
                 margin: auto;
@@ -109,6 +112,7 @@
                 transition-duration: 100ms;
                 transition-timing-function: ease;
             }
+
             .back:hover{
                 background-color: #ffd968;
             }
@@ -121,21 +125,15 @@
                 display: flex;
                 flex-direction: row;
 
-                margin-bottom: 15px;
+                margin-bottom: 20px;
+                margin-left: 20px;
+                margin-right: 20px;
             }
 
             @media (max-width: 850px) {
                 main{
                     flex-direction: column;
-                }
-
-                .TAOW-photo-bg{
-                    flex: 1;
-                }
-
-                .TAOW-description{
-                    padding-left: 20px;
-                    flex: 1;
+                    width: 100%;
                 }
 
                 img{
