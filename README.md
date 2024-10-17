@@ -3,6 +3,12 @@
 
 This project is a redesigned version of our college library's website, aimed at enhancing the user experience and visual appeal. Created during a hackathon, the revamped site focuses on offering a more engaging interface for students and visitors to explore available resources.
 
+## Created by
+- Cervantes, Elijah Gabe C. (Gabby07theProgrammer)
+- Pulmano, Hannah Paula Z. (404hannah)
+- Quiambao, Eric Janssen P. (Ensues)
+
+
 ## Project Overview
 
 The goal of this project is to improve the online presence of the library at the College of Computer Studies. The existing library site is limited in functionality, mainly featuring a small collection of popular books and theses. Our redesigned version aims to provide a better-looking and more intuitive interface, although the current resources are still limited.
@@ -31,9 +37,9 @@ The website is intended for:
 
 ## Installation and Usage
 
-Due to this being a publicly accessible web application / site, it does not require any special setup for browsing. Students can log in with their credentials for a more personalized experience, while visitors can access the library as guests.
+The site is publicly accessible and does not require any special setup for browsing. Students can log in with their credentials for a more personalized experience, while visitors can access the library as guests.
 
-Which is - https://ensues.github.io/Hackathon/
+The link being - https://ensues.github.io/Hackathon/
 
 ## Project Status
 
