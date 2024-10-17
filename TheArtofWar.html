@@ -27,14 +27,9 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-            }
 
-            h1, p{
-                /* Centers horizontally. */
                 padding-left: 20px;
                 padding-right: 20px;
-                padding-top: 0px;
-                padding-bottom: 0px;
             }
 
             .book-title{
@@ -47,6 +42,7 @@
 
             img{
                 height: 90vh;
+                padding: 10px;
                 /* Centers horizontally and vertically. */
                 display: block;
                 margin: auto;
@@ -69,7 +65,6 @@
                 font-family: Arial, Helvetica, sans-serif;
                 
                 margin-top: 10px;
-                margin-left: 20px;
                 text-align: center;
 
                 /* Centers vertically. */
@@ -100,7 +95,8 @@
                 font-family: Arial, Helvetica, sans-serif;
                 
                 margin-top: 10px;
-                margin-left: 20px;
+                margin-left: 10px;
+                margin-bottom: 15px;
                 text-align: center;
                 color: #881718;
 
@@ -120,6 +116,32 @@
             .back:active{
                 background-color: #ffe69a;
             }
+
+            .buttons{
+                display: flex;
+                flex-direction: row;
+
+                margin-bottom: 15px;
+            }
+
+            @media (max-width: 850px) {
+                main{
+                    flex-direction: column;
+                }
+
+                .TAOW-photo-bg{
+                    flex: 1;
+                }
+
+                .TAOW-description{
+                    padding-left: 20px;
+                    flex: 1;
+                }
+
+                img{
+                    height: 50vh;
+                }
+            }
         </style>
     </head>
     <body>
@@ -134,12 +156,14 @@
     
                 <p><b>Genres: Nonfiction, Classic</b><br>Book source: University of Alberta<br>Details from: Goodreads</p>
 
-                <div class="read">
-                    <p><b>Read</b></p>
-                </div>
-
-                <div class="back">
-                    <p><b><a href=library.html style="text-decoration: none; color: var(--bg-color);">Back</a></b></p>
+                <div class="buttons">
+                    <div class="read">
+                        <p><b>Read</b></p>
+                    </div>
+    
+                    <div class="back">
+                        <p><b><a href=library.html style="text-decoration: none; color: var(--bg-color);">Back</a></b></p>
+                    </div>
                 </div>
             </div>
         </main>
