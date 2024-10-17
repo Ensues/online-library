@@ -28,7 +28,7 @@ The website is intended for:
 - **Book Reading Availability** - Users can view information on books and theses available for in-person reading, connecting the digital platform to the physical library collection.
 - **Login and Guest Access** - Students can log in with their accounts, or users can browse the site as a guest.
 
-    Note: The login button is enabled only when the email and password fields contain any input.
+    Note: The login button is currently enabled only when the email and password fields contain **any** input.
 
 ## Technology Stack
 - **Languages**: HTML, CSS, JavaScript
