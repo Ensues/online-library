@@ -25,9 +25,10 @@ The website is intended for:
 - Revamped User Interface - A modernized design that improves visual appeal compared to the old version.
 - Basic Book Gallery - Displays popular books and theses, similar to the previous site.
 - Catalog Dropdown - Allows users to filter the gallery by popular books or theses (limited categories at the moment).
+- Book Reading Availability - Users can view information on books and theses available for in-person reading, connecting the digital platform to the physical library collection.
 - Login and Guest Access - Students can log in with their accounts, or users can browse the site as a guest.
 
-    Note: The login button is enabled only when the email and password fields contain input.
+    Note: The login button is enabled only when the email and password fields contain any input.
 
 ## Technology Stack
 - Languages: HTML, CSS, JavaScript
@@ -45,6 +46,4 @@ The link being - https://ensues.github.io/Hackathon/
 
 The project is essentially complete, created within a limited timeframe during the hackathon. While the current version offers minimal functionality, it serves as a foundation for potential future enhancements.
 
-## Contributions and Feedback
-
-This project was developed specifically for the hackathon, so further development is not currently planned. However, feedback and suggestions for future improvements are always welcome.
+This project was developed specifically for the hackathon, so further development is not currently planned.
