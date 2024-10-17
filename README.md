@@ -4,9 +4,9 @@
 This project is a redesigned version of our college library's website, aimed at enhancing the user experience and visual appeal. Created during a hackathon, the revamped site focuses on offering a more engaging interface for students and visitors to explore available resources.
 
 ## Created by
-- Cervantes, Elijah Gabe C. (Gabby07theProgrammer)
-- Pulmano, Hannah Paula Z. (404hannah)
-- Quiambao, Eric Janssen P. (Ensues)
+- Cervantes, Elijah Gabe C. | Gabby07theProgrammer
+- Pulmano, Hannah Paula Z. | 404hannah
+- Quiambao, Eric Janssen P. | Ensues
 
 
 ## Project Overview
