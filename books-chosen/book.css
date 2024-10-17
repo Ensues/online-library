@@ -13,7 +13,7 @@ main{
 }
 
 .photo-bg{
-    background-color: #881718;
+    background-color: #891619;
     flex: 2;
 
     /* Centers vertically. */
@@ -59,7 +59,7 @@ p{
 .read{
     width: 120px;
     height: 50px;
-    background-color: #881718;
+    background-color: #891619;
     border-radius: 50px;
 
     font-size: large;
