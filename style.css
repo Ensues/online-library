@@ -469,6 +469,7 @@ figure img:hover{
       flex-direction: column;
       gap: 5rem;
     }
+<<<<<<< HEAD
 }
 @media only screen and (max-width: 768px) {
     figure {
@@ -490,3 +491,6 @@ figure img:hover{
         height: 250px;
     }
 }
+=======
+  }
+>>>>>>> 72065afc15061167d8884f51c4e236497df7f865
