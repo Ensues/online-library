@@ -505,6 +505,9 @@ figure img:hover{
       font-size: 1rem;
       margin-left: 1rem;
     }
+    .dropdown li a:hover {
+        transform: translateX(-0.7rem); 
+    }
 }
 @media only screen and (max-width: 768px) {
     .search-bar {
