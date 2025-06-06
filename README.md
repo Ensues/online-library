@@ -13,6 +13,11 @@ This project is a redesigned version of our college library's website, aimed at 
 
 The goal of this project is to improve the online presence of the library at the College of Computer Studies. The existing library site is limited in functionality, mainly featuring a small collection of popular books and theses. Our redesigned version aims to provide a better-looking and more intuitive interface, although the current resources are still limited.
 
+## Website Preview:
+![image](https://github.com/user-attachments/assets/578f5982-0cd5-4e00-87d5-d402159b02e4)
+
+![image](https://github.com/user-attachments/assets/447ce659-ad58-490b-951e-15cc08fa21f9)
+
 ## Target Audience
 
 The website is intended for:
